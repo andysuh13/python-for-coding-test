@@ -14,13 +14,12 @@ def func():
 
 for i in range(10):
     func()
-
 print(a)
 
 def add(a, b):
     return a + b
 
-print(add(3,7))
+print(add(3, 7))
 
 print((lambda a, b: a + b)(3, 7))
     
