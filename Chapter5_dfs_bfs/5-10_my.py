@@ -29,5 +29,3 @@ for i in range(n):
         if dfs(i, j) == True:
             result += 1
 print(result)
-        
-
